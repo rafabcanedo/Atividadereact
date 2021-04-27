@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.App {
+.Exerc {
   margin: 5px;
   background-color: #FAFAFA;
   font-family: 'Poppins', sans-serif;
 }
 
-.App input {
+.Exerc input {
+  width: 180px;
+  height: 20px;
+  padding: 10px;
+  outline: 1px solid #c2c2c2;
   background-color: rgb(139, 193, 218);
   border: 1px solid rgb(30, 178, 247);
+  margin-left: 10px;
+  border-radius: 40px;
+}
+
+form div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+form div p {
+  font-weight: bold;
 }
 
 /* caixa central */
@@ -25,4 +41,5 @@
   background-color: tomato;
   color: darkblue;
   text-align: center;
+  font-weight: bold;
 }

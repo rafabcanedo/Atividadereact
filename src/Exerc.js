@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
+import './Exerc.css';
+import aluno from './Component.js';
 
-function App() {
+function Exerc() {
    
   const [nome, setNome] = useState("")
   const [telefone, setTelefone] = useState("")
@@ -31,10 +32,16 @@ function App() {
           <p>{nome}</p>
           <p>{telefone}</p>
         </div>
+     </div>
 
+    <div className="Soma_resp">
+        <div className="Resultado">
+          <p>{aluno.nome}</p>
+          <p>{aluno.ra}</p>
+        </div>
       </div>
     </div>
   );
 }
 
-export default App;
+export default Exerc;
